@@ -1,0 +1,34 @@
+HTML vs. Plain Text Emails: Which Option Is Best?
+September 28, 2015 | 1 comment
+The debate continues over whether HTML or plain text reign supreme in the email landscape. While reputable sources like Litmus claim that plain text emails are more important than ever, others argue that plain text died a painful death long ago, and should be entirely forsaken by marketers (check out this article on ClickZ for an example of someone who feels strongly about the latter).
+
+So, who’s right?
+
+Unsurprisingly, the answer isn’t entirely black and white. At Pardot, we subscribe to a best practice called Multi-part MIME (Multipurpose Internet Mail Extensions), which is described more in depth in the aforementioned Litmus article. Multi-part MIME bundles together a plain text and HTML version of an email, so that if an HTML email doesn’t load, the plain text version will display in its place. Similarly, if a recipient has indicated in their preferences that they only want to receive plain text emails (some people do still prefer them), that’s exactly what they’ll get.
+
+WHY ARE PLAIN TEXT EMAILS IMPORTANT?
+
+There are a number of arguments that can be made for the continued use of plain text emails:
+
+Universal readability. Every email client can render plain text emails, so using this format means that you never have to worry about your formatting being a stumbling block to deliverability.
+Higher deliverability rates. Plain text messages generally achieve a slightly higher deliverability rate, since they’re smaller and require less bandwidth to deliver than HTML emails. Note that an HTML email doesn’t hurt your deliverability if it is properly coded, CAN-SPAM compliant (and beyond CAN-SPAM, as described here), and is accompanied by a plain text counterpart.
+Varying user preferences. While the common perception is that all recipients prefer HTML emails because they add more visual interest, many people actually favor the simplicity of a plain text email. Studies have shown that plain text emails can be just as effective, if not more effective, than HTML for certain types of emails. For example, Groove has seen great success using primarily plain text emails for their onboarding series (if you haven’t checked out the Groove blog, I highly recommend it).
+Consistently accurate rendering. Some ESPs routinely strip out HTML elements from incoming emails to protect against viruses, causing such emails to display improperly.
+The rise of wearables. There is some debate as wearables like the Apple Watch rise in popularity over whether plain text will see a resurgence, since it may be more compatible with these types of devices.
+WHEN SHOULD I USE THEM?
+
+Let’s face it: HTML emails often win out due to enhanced aesthetics and the ability to input tracking codes. But there’s a time and place for a plain text email to make an impact as well. According to Mathew Sweezey, Product Evangelist at Salesforce and author of Marketing Automation for Dummies, a general rule of thumb is to send an HTML email if the email is coming from the marketing team, and a plain text email if the sender is an individual.
+
+A great example of this is when the marketing team is sending follow-up or nurturing emails on behalf of the sales team. These emails are intended to look as though they’re coming from a single sales rep, and should therefore have the appearance of a personalized email. An HTML email with stylized images and text doesn’t exactly scream “I really want to make a one-to-one connection with you,” does it?
+
+Get more guidance on sending plain text, personalized drip emails here.
+
+WHAT ARE SOME PLAIN TEXT EMAIL BEST PRACTICES?
+
+So you’re planning to start incorporating more plain text emails into your email strategy. Just like with any other email, there are a number of best practices to follow to make sure they display correctly. Keep in mind that while many ESPs and marketing automation tools give you the option to automatically import your HTML email into a plain text format, you’ll still want to manually tweak the resulting text email, since headers, links, and texts can appear squished.
+
+Create clear headers for each email section. A great way to do this is to set headline text apart in all caps, use asterisks, or use a dashed line to break up new sections.
+Make sure links aren’t mushed together or overwhelmingly long. The full text link will display in your email, so it will be obvious if the URL is too long and/or tracked. Links can also run together if they’re in close proximity to one another, so pay attention to your spacing.
+Evenly space out your email content. In general, text should be evenly spaced so that each section is distinct from the other sections around it. HTML content that has been automatically imported has a tendency to become clumped.
+Draw attention to your calls to action (CTAs). Without any text styling or graphics, it can be hard to find your CTA within a plain text email. Try using double angle brackets to indicate that a certain link is a call to action (for example: >> Read Now).
+Again, keep in mind that simpler is better when it comes to your plain text emails. If you’d like more email best practices, take a look at our Complete Guide to B2B Email Marketing by clicking on the banner below.
